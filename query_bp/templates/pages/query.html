@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "templates/head_query.html" %}
+<body>
+<div class="main">
+    <div class="input-text-form">
+        <h2 class="input-text-query">Ввод параметров запроса:</h2>
+        <form method="POST" action="">
+            <label class="prod_category" for="prod_category"> Категория продуктов: </label>
+            <input class="send-input" type="text" id="prod_category" name="prod_category" />
+            <br><br>
+            <input class="send-btn" type="submit" value="Отправить"/>
+        </form>
+        {% include "templates/buttons_query.html" %}
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.input-text-query{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.prod_category{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.send-btn{
+    background: #976BD6;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.send-btn:hover{
+    background: #4E2982;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.send-input{
+    width: 30vh;
+    height: 4vh;
+    border-radius: 10px;
+}

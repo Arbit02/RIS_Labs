@@ -1,0 +1,62 @@
+
+.title-page{
+    font-family : "Montserrat";
+    font-weight: bold;
+    font-size: 3em;
+    color: #976BD6;
+    margin-bottom: 2vh;
+}
+
+.button-group{
+    display: flex;
+    gap: 7vh;
+    justify-content: center;
+}
+
+.home-btn{
+    background: #976BD6;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 32px;
+    border: none;
+    border-radius: 7px;
+}
+
+.home-btn:hover{
+    background: #4E2982;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 32px;
+    border: none;
+    border-radius: 7px;
+}
+
+
+.exit-btn{
+    background: #976BD6;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 32px;
+    border: none;
+    border-radius: 7px;
+}
+
+.exit-btn:hover{
+    background: #4E2982;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 32px;
+    border: none;
+    border-radius: 7px;
+}
+
+.main-box{
+    position: relative;
+    top: 5vh;
+}
+
+
+
+
+
+

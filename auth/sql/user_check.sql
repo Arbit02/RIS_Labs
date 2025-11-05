@@ -1,0 +1,1 @@
+SELECT `login` FROM `users` WHERE `login` = '$input_login';

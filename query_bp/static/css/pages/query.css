@@ -1,0 +1,82 @@
+.input-text-query{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.prod_category{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button-group{
+    position: relative;
+    top: 1vh;
+}
+
+.home-btn-q{
+    background: #976BD6;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.home-btn-q:hover{
+    background: #4E2982;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+
+.send-btn{
+    background: #976BD6;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+.send-btn:hover{
+    background: #4E2982;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.send-input{
+    width: 30vh;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+
+
+.exit-btn-q{
+    background: #976BD6;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.exit-btn-q:hover{
+    background: #4E2982;
+    color: #ffffff;
+    font-family : "Montserrat";
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}

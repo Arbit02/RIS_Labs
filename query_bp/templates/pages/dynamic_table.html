@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+{% include "templates/head_query.html" %}
+<body>
+    <div class="main">
+        <h2 class="title-table">{{prod_title}}</h2>
+        <table class="table-query" border="1">
+            <tr class="title">
+                <td>Название</td>
+                <td>Единица измерения</td>
+                <td>Цена</td>
+            </tr>
+            {% for product in products %}
+                <tr>
+                    <td>{{product[0]}}</td>
+                    <td>{{product[1]}}</td>
+                    <td>{{product[2]}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        {% include "templates/buttons_query.html" %}
+    </div>
+</body>
+</html>

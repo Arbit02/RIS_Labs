@@ -1,0 +1,1 @@
+INSERT INTO `users`(`login`, `password`, `user_group`) VALUES ('$input_login', '$input_password', '$input_group');

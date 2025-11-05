@@ -1,0 +1,5 @@
+{
+  "cashier": ["query_bp", "auth_bp"],
+  "admin": ["query_bp","auth_bp"],
+  "user" : ["query_bp","auth_bp"]
+}
