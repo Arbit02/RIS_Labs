@@ -6,11 +6,13 @@ from query_bp.route import query_bp
 from reports_bp.reports_routes import report_bp
 from auth.auth_routes import auth_bp
 from access import login_required, group_required
+from Shop_bp.shop_routes import shop_bp
 from flask_assets import Environment, Bundle
 app = Flask(__name__)
 assets_env = Environment(app)
 app.config['ASSETS_DEBUG'] = False
 assets_env.init_app(app)
+
 
 
 with open("../data/db_config.json") as f:
@@ -27,6 +29,8 @@ app.register_blueprint(query_bp, url_prefix='/query')
 app.register_blueprint(auth_bp, url_prefix='/auth')
 
 app.register_blueprint(report_bp, url_prefix='/report')
+
+app.register_blueprint(shop_bp, url_prefix='/shop')
 
 @app.route('/')
 @login_required

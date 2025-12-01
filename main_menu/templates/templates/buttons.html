@@ -1,4 +1,8 @@
 <div class="button-group">
-    <button class="home-btn" onclick="window.location.href='{{ url_for('query_bp.query_get') }}'">Главная</button>
+    <div class="top-button-section">
+        <button class="home-btn" onclick="window.location.href='{{ url_for('query_bp.query_get') }}'">Главная</button>
+        <button class="exit-btn" onclick="window.location.href='{{ url_for('report_bp.reports') }}'">Отчеты</button>
+        <button class="exit-btn" onclick="window.location.href='{{ url_for('shop_bp.shop_list') }}'">Список Товаров</button>
+    </div>
     <button class="exit-btn" onclick="window.location.href='{{ url_for('exit_func') }}'">Выход</button>
 </div>

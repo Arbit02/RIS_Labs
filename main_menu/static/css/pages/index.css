@@ -2,13 +2,14 @@
 .title-page{
     font-family : "Montserrat";
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2em;
     color: #976BD6;
     margin-bottom: 2vh;
 }
 
 .button-group{
     display: flex;
+    flex-direction: column;
     gap: 7vh;
     justify-content: center;
 }
@@ -17,7 +18,7 @@
     background: #976BD6;
     color: #ffffff;
     font-family : "Montserrat";
-    font-size: 32px;
+    font-size: 20px;
     border: none;
     border-radius: 7px;
 }
@@ -26,7 +27,7 @@
     background: #4E2982;
     color: #ffffff;
     font-family : "Montserrat";
-    font-size: 32px;
+    font-size: 20px;
     border: none;
     border-radius: 7px;
 }
@@ -36,7 +37,7 @@
     background: #976BD6;
     color: #ffffff;
     font-family : "Montserrat";
-    font-size: 32px;
+    font-size: 20px;
     border: none;
     border-radius: 7px;
 }
@@ -45,7 +46,7 @@
     background: #4E2982;
     color: #ffffff;
     font-family : "Montserrat";
-    font-size: 32px;
+    font-size: 20px;
     border: none;
     border-radius: 7px;
 }

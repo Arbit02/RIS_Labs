@@ -23,3 +23,9 @@ body {
     height: 30vh;
     width: 50vh;
 }
+
+.top-button-section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
